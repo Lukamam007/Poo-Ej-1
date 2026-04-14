@@ -1,12 +1,11 @@
 using System;
 namespace MiPrimerProyecto
 {
-    class Program
+    class Semaforo
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("¡Hola, mundo!");
-        }
+        private string color;
+        
     }
+Semaforo semaforo = new Semaforo("Verde");
 }
 
