@@ -1,0 +1,2 @@
+pasoDelTiempo(segundos);
+mostrarColor();
