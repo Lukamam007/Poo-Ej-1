@@ -1,11 +1,10 @@
 using System;
-namespace MiPrimerProyecto
-{
-    class Semaforo
-    {
-        private string color;
-        
+namespace Jugadores{
+    public class Ejercicio{
+        public static void Main(){
+            IJugador jugador = new Jugador();
+            jugador.Correr(30);
+        }
     }
-Semaforo semaforo = new Semaforo("Verde");
-}
+
 
